@@ -1,17 +1,17 @@
 li{
   margin-bottom: 16px;
 }
-ol{
+ol li{
   background-color: green;
   color: white;
 }
-ul{
+ul li{
   background-color: orange;
   color: white;
 }
-ul li + span{
+#special + span{
   border: 3px solid red;
 }
-#special ~ li{
+#special ~ span{
   margin-left: 16px;
 }
